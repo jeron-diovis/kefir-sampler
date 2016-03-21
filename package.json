@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "Create a function that samples related stream",
   "main": "lib/index.js",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jeron-diovis/kefir-sampler.git"
+  },
   "scripts": {
     "test": "mocha --harmony --recursive --compilers js:babel-register",
     "test:watch": "npm test -- --watch",
