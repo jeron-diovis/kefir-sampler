@@ -1,0 +1,67 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true
+  },
+  "globals": {
+    "console": false
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "destructuring": true,
+    "experimentalObjectRestSpread": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "comma-dangle": 0,
+    "no-inner-declarations": 0,
+    "no-extra-boolean-cast": 0,
+
+    "no-unused-vars": 1,
+    "no-unreachable": 1,
+    "comma-spacing": [
+      1,
+      { "before": false, "after": true }
+    ],
+    "semi-spacing": [
+      1,
+      { "before": false, "after": true }
+    ],
+    "semi": [
+      1,
+      "always"
+    ],
+    "no-console": 1,
+
+    "curly": 2,
+    "no-dupe-keys": 2,
+    "no-mixed-spaces-and-tabs": 2,
+    "no-empty-label": 2,
+    "no-extra-bind": 2,
+    "no-redeclare": 2,
+    "no-return-assign": 2,
+    "no-script-url": 2,
+    "no-self-compare": 2,
+    "object-curly-spacing": [2, "always"],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+
+    "no-debugger": 1,
+    "no-trailing-spaces": 1,
+    "indent": [
+      1,
+      2,
+      { "SwitchCase": 1 }
+    ],
+    "quotes": [
+      1,
+      "double"
+    ],
+    "key-spacing": [
+      1,
+      { "beforeColon": false, "afterColon": true }
+    ]
+  }
+}
