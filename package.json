@@ -1,6 +1,6 @@
 {
   "name": "kefir-sampler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a function that samples related stream",
   "main": "lib/index.js",
   "readme": "README.md",
